@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{ list-style:none;}
+img,a img{ border:0; outline:0;}
+a{ text-decoration:none;}
+map,area{border:0;outline:0;}
+input{outline:none;}
+body{ /*font-family:Arial,"黑体","微软雅黑";*/font:12px/1.5 tahoma,arial,Hiragino Sans GB,\5b8b\4f53; background-color:#ffffff; text-align:center; font-size:14px;}
+.sp10{ height:10px; line-height:10px; overflow:hidden; clear:both; width:100%;}
+.sp15{ height:15px; line-height:10px; overflow:hidden; clear:both; width:100%;}
+.head{ height:100px; width:982px; margin:0 auto;}
+.main-nav{ height:40px; background-color:#2C84DE; width:100%; text-align:center;}
+.main-nav ul{ width:982px; height:40px; margin:0 auto; text-align:center;}
+.main-nav ul li{width:88px; padding:0 11px 0 10px; float:left; height:40px; line-height:40px; text-align:center; 
+/*
+background:url(../images/nav-li-bg.gif) no-repeat right center;
+*/
+position:relative; }
+.main-nav ul li.h{background-image:url(../images/nav-li-bg-hot.gif)}
+.main-nav ul li .hot{ 
+display:block;width:22px; height:13px; background:url(../images/index-nav-hot2.gif) no-repeat; position:absolute; top:6px; right:2px; 
+}
+.main-nav ul li.n{ /*background:none;*/}
+.main-nav ul li a{ text-decoration:none; font-size:14px; font-weight:bold; color:#fff;}
+.main-nav ul li dl{ position:absolute; left:0px; width:109px;  padding:6px 0px 4px 0px ; top:40px; display:none; z-index:100000;
+/*
+background:url(../images/index-nav-dl-bg1.gif) no-repeat center top #fff;*/
+background-color:#fff;}
+.main-nav ul li dl.two{ width:218px; background-position: -196px top;}
+.main-nav ul li dl dd{width:98px; height:30px; line-height:32px; position:relative;color:#333; float:left; text-align:left; padding-left:10px;
+border-bottom:1px solid #efefef;}
+.main-nav ul li dl dd.n{ border-bottom:0;}
+.main-nav ul li dl dd a{ font-size:14px; font-weight:normal;color:#333;}
+.main-nav ul li dl dd .hot{ 
+width:22px; height:13px; background:url(../images/index-nav-hot2.gif) no-repeat; position:absolute; top:5px; right:10px; display:block;
+}
+
+.foot{ width:100%; overflow:hidden; padding-bottom:10px; background:url(../images/foot-subnav-bg.gif) repeat-x; text-align:center; }
+.foot .main{ width:980px; margin:0 auto;}
+.foot .llogo{ width:225px; float:left; padding-top:50px;}
+.foot .rsubnav{ width:720px; float:right;}
+.foot .rsubnav a{color:#333;}
+#cnzz_stat_icon_1252926168 a{color:#333; font-size:12px;}
+.foot .rsubnav .hf{ display:table;}
+.foot .rsubnav .hf li{ float:left; width:180px; overflow:hidden; background:url(../images/bt-sp.gif) no-repeat 179px 40px; height:190px;}
+.foot .rsubnav .hf li dl{ overflow:hidden;}
+.foot .rsubnav .hf li dl dt{ height:35px; line-height:35px; text-align:center; position:relative;}
+.foot .rsubnav .hf li dl dt a{color:#fff; font-size:14px; font-weight:bold; letter-spacing:1px;}
+.foot .rsubnav .hf li dl dt span{ display:block; position:absolute; width:5px; height:3px; left:50%; margin-left:-2px; 
+background:url(../images/index-line3-left-nav-li-bg.gif) no-repeat left top; top:35px;}
+.foot .rsubnav .hf li dl dd{ overflow:hidden; text-align:left; padding-top:20px; padding-left:20px;}
+.foot .rsubnav .hf li dl dd a{ font-size:12px; color:#202020;}
+.foot .rsubnav p{ font-size:12px; color:#333; text-align:left; padding-left:20px; line-height:22px;}
+
+
+
+
+

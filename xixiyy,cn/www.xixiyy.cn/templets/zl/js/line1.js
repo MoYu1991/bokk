@@ -1,0 +1,10 @@
+document.writeln("<div class=\"l1-six-box\">");
+document.writeln("	<dl>");
+document.writeln("    	<dd class=\"b1\"><a href=\"/zt/newrxa/\"></a><span><a href=\"/dongtai/1836.html\">我国肿瘤术后1年复发率达60%，90%患者死于五年内复发转移，生物治疗可减少复发转移</a></span></dd>");
+document.writeln("        <dd class=\"b2\"><a href=\"/zt/liaofa/\"></a><span><a href=\"/zt/liaofa/\">肿瘤新一代生物治疗技术，优势是：起效更快、杀癌更强、范围更广</a></span></dd>");
+document.writeln("        <dd class=\"b3\"><a href=\"/dongtai/1843.html\"></a><span><a href=\"/dongtai/1843.html\">我院与解放军302医院签约技术协作医院，在肿瘤诊疗方面紧密合作，提高我院肿瘤诊疗水平</a></span></dd>");
+document.writeln("        <dd class=\"b4\"><a href=\"/dongtai/1837.html\"></a><span><a href=\"/dongtai/1837.html\">生物治疗是一种绿色抗癌方式，因癌症诊疗特色，我院被评为\"浙江省绿色医院\"</a></span></dd>");
+document.writeln("        <dd class=\"b5\"><a href=\"/zixun/\"></a><span><a href=\"/zixun/\">肿瘤生物治疗可医保报销，报销的比例、范围请咨询在线医生</a></span></dd>");
+document.writeln("        <dd class=\"b6\"><a href=\"/qyjs/1386.html\"></a><span><a href=\"/qyjs/1386.html\">生物治疗是一种免疫根源着手的绿色疗法，有效延长患者的生存期</a></span></dd>");
+document.writeln("    </dl>");
+document.writeln("</div>");

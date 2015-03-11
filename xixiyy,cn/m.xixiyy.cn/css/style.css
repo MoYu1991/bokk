@@ -1,0 +1,674 @@
+@charset "gb2312";
+/* CSS Document */
+
+/* 固有样式 */
+* {
+	margin:0;
+	padding:0;
+}
+ul, ol {
+	list-style:none;
+}
+body {
+	font-family:"宋体", "微软雅黑";
+	line-height:24px;
+	color:#333;
+	font-size:12px;
+	background:#FFF;
+margin: 0;
+width:320px;
+	margin: 0 auto;
+}
+.clear {
+	clear:both;
+}
+img {
+	border: 0 none;
+}
+a:link, a:visited {
+	text-decoration:none;
+}
+a:hover {
+	color:#666;
+	text-decoration:underline;
+}
+a:focus {
+	outline: none;
+}
+.red {
+	color:#F00;
+}
+/*------头部区域HEADER样式-----*/
+.wrap {
+
+	background-color:#fff;
+	margin 0 auto;
+}
+.wrap_inner {
+	width:320px;
+	margin: 0 auto;
+
+}
+.logo_ttb {
+	width:320px;
+	height:70px;
+}
+/*头部区域导航样式*/
+.nav_ttb {
+	width:320px;
+	height:35px;
+	background-color:#1896EC;
+}
+
+.nav_ttb li {
+	float:left;
+	line-height:35px;
+}
+.nav_ttb li a {
+	display:block;
+	height:35px;
+	color:#fff;
+	padding:0 10px;
+	margin-right:1px;
+}
+
+
+.nav_ttbc {
+	width:320px;
+	height:35px;
+	background-color:#1896EC;
+}
+.nav_ttbc {
+position: fixed;
+width: 320px;
+height: 35pz;
+top: 0;
+margin: 0 auto;
+}
+.nav_ttbc li {
+	float:left;
+	line-height:35px;
+}
+.nav_ttbc li a {
+	display:block;
+	height:35px;
+	color:#fff;
+	padding:0 10px;
+	margin-right:1px;
+}
+.nav_ttbc li a:hover {
+	background-color:#1896EC;
+}
+
+
+.banner_ttb {
+	width:320px;
+	height:150px;
+}
+/*------主体区域CONNET样式-----*/
+.con1_news {
+	padding-left:6px;
+	margin-bottom:10px;
+}
+.con1_news li {
+	height:18px;
+	line-height:18px;
+	margin-top:10px;
+}
+.con1_news li span {
+	float:left;
+	display:block;
+	background:url(../img/ttk_news.gif) no-repeat;
+	width:40px;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	color:#fff;
+}
+.con1_news li.xinwen span {
+	background:url(../img/ttk_news.gif) no-repeat center left;
+}
+.con1_news li.liaofa span {
+	background:url(../img/ttk_news.gif) no-repeat bottom left;
+}
+.con1_news li a {
+	float:left;
+	display:block;
+	height:18px;
+	line-height:18px;
+	margin-left:8px;
+	color:#333;
+}
+.con1_news li.xinwen1 a {
+	/*padding-right:25px;
+	 background:url(../img/ttb_new.gif) no-repeat top right;*/
+}
+/* 优势专病样式*/
+.con2_yszb {
+}
+.subnav {
+	height:30px;
+	line-height:30px;
+	background-color:#CAE9FF;
+	padding-left:6px;
+	border-top:1px #1896EC solid;
+}
+.subnav p {
+	background:url(../img/ttb_list_bg.gif) no-repeat center left;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:18px;
+}
+.subnav a {
+	display:block;
+	width:46px;
+	height:20px;
+	line-height:20px;
+	float:right;
+	;
+	color:#6b3804;
+	background:url(../img/ttb_more_bg.gif) no-repeat;
+	font-size:12px;
+	text-align:center;
+	margin:5px 6px 0 0;
+}
+.bingzhong {
+	padding-left:4px;
+	margin-bottom:2px;
+}
+.bingzhong li {
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	margin:2px 5px 0 5px;
+	display:inline;
+}
+.bingzhong li a {
+
+	color:#5a350f;
+	height:35px;
+	line-height:35px;
+	padding:0 8px;
+}
+.bingzhong li a:hover {
+	color:#FFF;
+	background-color:#5a350f;
+}
+/*名医在线样式*/
+.con3_myzx {
+	float:left;
+		margin-bottom:10px;
+		display:inline;
+}
+.zj_jianjie .zj_jj {
+	padding:10px 6px 0 6px;
+}
+.zj_jjtp {
+	border:1px #e5e5e5 solid;
+	float:left;
+}
+.zj_jjtp img {
+	display:block;
+	border:1px #fff solid;
+}
+.zj_jianjie .zj_jj .zjjj {
+	float:left;
+	width:192px;
+	margin-left:10px;
+}
+.zj_jianjie .zj_jj .zjjj h3 {
+	font-size:14px;
+	line-height:26px;
+}
+.zj_jianjie .zj_jj .zjjj span {
+	color:#5a350f;
+	margin-right:12px;
+}
+.zj_jianjie .zj_jj .zjjj span a{color:#05568D;}
+.zj_jianjie .zj_jj .zjjj p.p2 {
+	line-height:20px;
+	color:#666
+}
+.zj_jianjie .zj_jj .zjjj p.p2 span {
+	color:#333;
+	font-weight:bold;
+}
+.zj_jianjie .zj_jj .zjjj p.p2 a {
+	color:#F00;
+}
+.zj_jianjie .good {
+	padding:6px;
+	line-height:20px;
+	color:#666;
+}
+.zj_jianjie .good span {
+	color:#5a350f;
+	font-weight:bold;
+}
+.zj_list li {
+	float:left;
+	width:79px;
+	height:24px;
+	line-height:24px;
+	margin-right:1px;
+}
+.zj_list li a {
+	display:block;
+	color:#333;
+	font-weight:bold;
+	text-align:center;
+	background-color:#f5f5f5;
+	border-bottom:1px #e5e5e5 solid;
+}
+.zj_list li a:hover {
+	color:#fff;
+	background-color:#1FA4FF;
+	border-bottom:1px #673502 solid;
+}
+.zj_list li.zj_lista a{color:#fff;background-color:#1FA4FF;border-bottom:1px #0261A1 solid;}
+/*德杏堂样式*/
+.con4_dxt{clear: both;}
+.con4_dxt_tf{clear: both;margin-bottom: 10px;}
+.con4_dxt_tf ul{text-align: center;
+padding-top: 5px;}
+.con4_dxt p.dxtjj {
+	padding:5px 7px;
+	line-height:24px;
+	text-indent:2em;
+}
+.con4_dxt p.dxtjj a {
+	color:#f00;
+}
+/*------尾部区域FOOTER-----*/
+.footer {
+	padding-bottom:45px;
+}
+.footer .footer_nav {
+	background-color:#f5f5f5;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.footer .footer_nav a {
+	color:#333;
+}
+.footer .footer_nav a:hover {
+	color:#5a350f;
+}
+.footer p {
+	color:#666;
+	text-align:center;
+	line-height:20px;
+	padding:8px 0;
+}
+/*------悬浮咨询预约-----*/
+#fudong {
+	background-color:#1896EC;
+	position:fixed;
+	width:320px;
+	height:45pz;
+	bottom:0;
+	margin:0 auto;
+	/*display:none;*/
+}
+#fudong li {
+	float:left;
+	width:105px;
+	height:45px;
+}
+#fudong li.zxzz{
+	background:url(../img/ttb_zxzx.gif) no-repeat;
+	}
+#fudong li.dhzz {
+	background:url(../img/ttb_dhzx.gif) no-repeat;
+}
+#fudong li.mfyy {
+	background:url(../img/ttb_mfyy.gif) no-repeat;
+}
+#fudong li.zxzz:hover {
+	background:url(../img/ttb_zxzx1.gif) no-repeat;
+}
+#fudong li.dhzz:hover {
+	background:url(../img/ttb_dhzx1.gif) no-repeat;
+}
+#fudong li.mfyy:hover {
+	background:url(../img/ttb_mfyy1.gif) no-repeat;
+}
+/*------病种页-----*/
+.subnav_weizhi {
+	/*height:30px;*/
+	line-height:30px;
+	background-color:#f0f0f0;
+	padding-left:6px;
+	border-top:1px #673502 solid;
+	margin-top:10px;
+}
+.subnav_weizhi p {
+	background:url(../img/ttb_list_bg.gif) no-repeat left 12px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:18px;
+}
+.subnav_weizhi p a {
+	font-size:12px;
+	color:#333;
+	font-weight:normal;
+}
+.subnav_weizhi p a:hover {
+	color:#5a350f;
+}
+/*------病种页单个病种-----*/
+.bz_own {
+	margin-top:2px;
+	margin-left:2px;
+}
+.bz_top {
+	background:url(../img/bzbg_ttb.gif) no-repeat;
+	padding-top:12px;
+}
+.bz_top h1 {
+	font-family: 微软雅黑, 黑体, Verdana;
+	font-size:30px;
+	font-weight:normal;
+	margin:0 0 0 50px;
+	padding:0 0 3px 10px;
+	line-height:42px;
+	background:url(../img/bzy_left_tb.gif) no-repeat;
+	float:left;
+}
+.bz_only a {
+	display:block;
+	width:10px;
+	height:42px;
+	background:url(../img/bzy_right_tb.gif) no-repeat;
+	float:left;
+}
+.bz_bottom p {
+	background:url(../img/bzy_tb.gif) no-repeat 0 30%;
+	padding:5px 0 0 22px;
+	margin:0 0 0 2px;
+	line-height:16px;
+	color: #666;
+}
+.bz_bottom {
+	margin-right:2px;
+	border:1px #d0c2a9 solid;
+	border-top:none;
+	margin-bottom:10px;
+}.bz_bottom_tf p {
+	background:url(../img/bzy_tb.gif) no-repeat 0 30%;
+	padding:5px 0 0 22px;
+	margin:0 0 0 2px;
+	line-height:16px;
+	color: #666;
+}
+.bz_bottom_tf {
+	margin-right:2px;
+	border:1px #d0c2a9 solid;
+
+	margin-bottom:10px;
+}
+.bz_zzyy li {
+	padding:7px;
+	border-bottom:1px #f5f5f5 solid;
+	line-height:14px;
+}
+.bz_zzyy li span {
+	width:55px;
+	display:block;
+	color:#a95500;
+	font-weight:bold;
+	background:url(../img/bzy_shuzi_01.gif) no-repeat;
+	text-indent:23px;
+	float:left;
+}
+.bz_zzyy li a {
+	display:block;
+	color:#333;
+	float:left;
+	width:230px;
+	text-indent:25px;
+}
+.bz_zzyy li span a{
+	display:block;
+	color:#a95500;
+	font-weight:bold;
+	text-indent:23px;
+	float:left;
+	width:55px;
+}
+/*患者关注*/
+.hzgz {
+	padding:0 6px;
+}
+.hzgz li {
+	line-height:34px;
+	background:url(../img/hzgz_bg.gif) no-repeat center left;
+	text-indent:8px;
+	border-bottom:1px #a6a6a6 dashed;
+}
+.hzgz li a {
+	color:#333;
+}
+/*------各个名医专家-----*/
+.doctor .zj_jianjie {
+	border-bottom:1px #a6a6a6 dashed;
+}
+/*------文章页-----*/
+h1.title {
+	font-size:24px;
+}
+.xgwz {
+	border-top:1px #a6a6a6 dashed;
+	margin:10px 6px 5px 6px;
+	padding-top:8px;
+}
+.xgwz p {
+	background:none;
+	padding:0 4px 4px 4px;
+	line-height:24px;
+	text-indent:2em;
+}
+/*------名医肖建桥-----*/
+.ys_xjq {
+	padding:0 6px;
+}
+.ys_xjq h2 {
+	font-size:14px;
+	color:#7e5124;
+	line-height:34px;
+	text-align:center;
+
+}
+.ys_xjq h2 span {
+	color:#333;
+	font-weight:normal;
+}
+.xjq_tp {
+	border:1px #7e5124 solid;
+	margin:10px;
+}
+.ys_xjq .xjq_tp img {
+	display:block;
+	border:3px #fff solid;
+}
+.xjq_jj {
+	padding-bottom:8px;
+}
+.xjq_jj strong {
+	/**display:block;
+	background:url(../img/xjq_bg.gif) no-repeat;
+	**/
+	width:278px;
+	height:55px;
+	padding:5px 15px 0 15px;
+	color:#5a350f;
+}
+.xjq_jj p {
+	line-height:24px;
+	padding:5px 10px 0 10px;
+
+}
+/*------新闻列表页-----*/
+.list_news {
+	padding:10px 0;
+	margin:0 6px;
+	border-bottom:1px #a6a6a6 dashed;
+}
+.list_news .news_tp {
+	float:left;
+	border:1px #e5e5e5 solid;
+}
+.list_news .news_tp img {
+	display:block;
+	border:1px #fff solid;
+	width:100px;
+	height:71px;
+}
+.news_right {
+	padding-left:10px;
+	float:left;
+	width:192px;
+}
+.news_right h3 {
+	color:#5a350f;
+	font-size:12px;
+	line-height:16px;
+	padding-bottom:4px;
+}
+.news_right h3 a{color:#5a350f;}
+.news_right p {
+	line-height:18px;
+	text-indent:2em;
+}
+.news_right p a {
+	color:#f00;
+}
+.xulie {
+	line-height:46px;
+	text-align:center;
+	color:#666;
+	width: 320px;
+height: 35px;
+}
+.xulie li{margin-left:2px;display:inline;}
+.thisclass{color:#f00;}
+.xulie p a {
+	color:#666;
+}
+.xulie p a:hover {
+	color:#5a350f;
+}
+/*------医院概况-----*/
+.yygk {
+	padding:0 6px 8px 6px;
+}
+.yygk h1 {
+	font-family: 微软雅黑, 黑体, Verdana;
+	font-size:16px;
+	line-height:44px;
+	border-bottom:1px #a6a6a6 dashed;
+	font-weight:normal;
+	/*background:url(../img/yygk_bg.gif) no-repeat 0 center;*/
+	text-indent:15px;
+}
+.yygk p {
+	/*text-indent:2em;*/
+	line-height:24px;
+	padding:6px 8px 0 8px;
+}
+
+#content_1_l{
+
+	width:320px;
+
+	height:320px;
+
+
+
+	background:url(../img/con_1_l_bg.jpg) repeat;
+
+	border-top:3px solid #E6E6E6;
+
+	border-bottom:3px solid #E6E6E6;
+
+	}
+
+.dig{font-size:23px;  text-align:center; line-height:33px;
+
+	font-family: "SimSun";
+
+	letter-spacing:1px;
+
+	font-weight: bold;}
+
+#content_1_l ul{ 
+
+			margin:0 auto;
+
+			padding:0;
+
+			float:left;
+
+		  }
+
+#content_1_l li{
+
+	margin:0;
+
+	padding:0;
+
+
+
+	list-style-type:none;
+
+	float:left;
+
+	width:320px;
+
+	}
+
+#content_1_l ul li h1{ margin:7px 0 7px 0;}
+
+#content_1_l li span{
+
+	float:left;
+
+	height:20px;
+
+	font-size:13px;
+
+    text-indent: 2em;
+
+    padding: 4px 0 0 10px;
+
+    line-height: 19px;
+
+	}
+
+#content_1_l li span a{
+
+	height:35px;
+
+	text-decoration:none;
+
+	letter-spacing:0.8px;
+
+	padding:0 0 0 2px;
+
+    color: red;
+
+	}
+	.dig{font-size:23px;  text-align:center; line-height:33px;
+
+	font-family: "SimSun";
+
+	letter-spacing:1px;
+
+	font-weight: bold;}
+	
+.search-box{ width:300px; padding:8px 10px 0 10px; text-align:left; margin:0 auto; overflow:hidden; }
+.search-box a{ text-decoration:underline; font-size:12px;color:#333;}
+.search-box-box{ height:20px; float:right; width:195px; background:url(../images/search-box.png) no-repeat; position:relative;}
+.search-box-inp{ position:absolute; left:0; top:0px; outline:0; border:0; height:14px; font-size:12px; padding:2px 5px; width:160px; background:#fff;}
+.search-box-btn{ position:absolute; left:175px; top:0px; width:20px; height:18px; cursor:pointer;}

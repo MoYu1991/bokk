@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+::selection {color: #FFF;background: #7AA2D4;}
+::-moz-selection {color: #FFF;background: #7AA2D4;}
+body{color:#333;font-family: Arial,"宋体","微软雅黑";}
+.y-sp10{ height:10px; overflow:hidden; width:100%; clear:both;}
+.y-sp20{ height:20px; overflow:hidden; width:100%; clear:both;}
+.y-sp30{ height:30px; overflow:hidden; width:100%; clear:both;}
+.y-sp40{ height:40px; overflow:hidden; width:100%; clear:both;}
+.y-sp50{ height:50px; overflow:hidden; width:100%; clear:both;}
+
+.hang1{ width:980px; margin:0 auto; overflow:hidden; text-align:left;}
+.hang1 .bt{ width:100%; overflow:hidden;}
+.hang1 .left{ width:396px; float:left; overflow:hidden;}
+.hang1 .right{ width:584px; float:left; overflow:hidden;}
+
+.hang2{ width:980px; margin:0 auto; overflow:hidden; text-align:left; /*letter-spacing:1px;*/ }
+.hang2 .bt{ width:100%; overflow:hidden;}
+.hang2 .left{ width:580px; padding:0 10px; float:left; overflow:hidden;}
+.hang2 p{ text-indent:2em; line-height:26px; padding-bottom:5px;word-break:break-all;}
+
+.stitle{height:50px; line-height:50px; color:#fe6500; text-indent:2em;}
+.l2_stitle{ height:28px; line-height:28px; padding-bottom:16px;}
+
+.hang3{ width:980px; margin:0 auto; overflow:hidden; text-align:left;}
+
+.h3-dl{ overflow:hidden;}
+.h3-dl dt{ float:left; overflow:hidden; padding-left:2em;}
+.h3-dl ul{ width:350px; height:120px; background:url(../images/line3-2.jpg) no-repeat left center; padding-left:30px;}
+.h3-dl ul li{ line-height:30px; height:30px; font-size:16px;}
+.h3-dl dd{ float:left; width:100px; height:100px; padding-top:10px;}
+
+.hang4{ width:980px; margin:0 auto; overflow:hidden; text-align:left;}
+.h4-ul{ padding-left:30px; background:url(../images/line3-2.jpg) no-repeat left center;}
+.h4-ul li{ line-height:30px; height:30px;}
+
+.hang5,.hang6,.hang7,.hang8,.hang9,.hang10,.hang11,.hang12{ width:980px; margin:0 auto; text-align:left; overflow:hidden;}
+
+.h7-main{ width:100%; height:314px; background:url(../images/line7-bg.jpg) no-repeat left top; position:relative; font-size:16px;}
+.h7-main .title{ position:absolute; left:40px; top:30px; width:190px; height:28px; font-weight:bold;}
+.h7-main .list{ position:absolute; left:490px; top:14px; width:440px; height:300px; }
+.h7-main .list li{ height:48px; line-height:48px;}
+
+.hang8 p{ text-indent:2em; line-height:24px; padding-bottom:10px;}
+
+.h9-main{ width:980px; height:254px; position:relative; background:url(../images/line9-bg.jpg) no-repeat left top;}
+.h9-main i{ font-style:normal; position:absolute; height:24px; line-height:24px;}
+.h9-main i.i1{ left:100px; top:12px;}
+.h9-main i.i2{ left:112px; top:114px;}
+.h9-main i.i3{ left:102px; top:210px;}
+.h9-main i.i4{ left:722px; top:12px;}
+.h9-main i.i5{ left:712px; top:114px;}
+.h9-main i.i6{ left:700px; top:210px;}
+.h9-main a.i7{ display:block; position:absolute; width:90px; height:26px; line-height:26px;
+left:445px; top:153px;}
+
+.h10-main{ padding:0 10px; overflow:hidden; background:url(../images/ling10-bg.jpg) no-repeat center 0;}
+.h10-main p{ line-height:24px; text-indent:2em; padding-bottom:10px;}
+.h10-main p.t1{color:#fe6500; padding-bottom:16px;}
+.h10-main p.t2{color:#085FA4; padding-bottom:16px;}
+.h10-main p a{color:#085FA4; text-decoration:none;}
+
+.h11-main{ overflow:hidden; background:url(../images/line11-bg.jpg) no-repeat left top; height:420px;position:relative;}
+.h11-main i,.h11-main b{ position:absolute; display:block; font-size:13px;  font-style:normal;}
+.h11-main i{ height:24px; line-height:24px; width:100px;}
+.h11-main b{color:#0763aa; width:108px; height:80px; font-weight:normal; line-height:26px; font-size:13px; padding:0 5px;} 
+.h11-main i.i1{ left:113px; top:150px;}
+.h11-main i.i2{ left:250px; top:133px;}
+.h11-main i.i3{ left:340px; top:186px;}
+.h11-main i.i4{ left:346px; top:320px;}
+.h11-main i.i5{ left:220px; top:358px;}
+.h11-main i.i6{ left:76px; top:322px;}
+
+.h11-main b u{ display:block; width:100%; height:20px; line-height:20px; text-align:center; text-decoration:none; font-weight:bold; padding-bottom:5px;}
+.h11-main b.b1{ left:500px; top:65px;}
+.h11-main b.b2{ left:675px; top:65px; width:110px;}
+.h11-main b.b3{ left:851px; top:65px;}
+.h11-main b.b4{ left:850px; top:305px;}
+.h11-main b.b5{ left:680px; top:305px;}
+.h11-main b.b6{ left:502px; top:305px;}
+
+.hang12 p{ text-indent:2em; line-height:26px; padding-bottom:10px;}
